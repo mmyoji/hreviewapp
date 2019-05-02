@@ -18,7 +18,7 @@
       <tr>
         <td><%= link_to post.user.username, user_path(post.user) %></td>
         <td><%= post.title %></td>
-        <td><%= post.body %></td>
+        <td><%= truncate post.body %></td>
         <td><%= post.published_at&.iso8601 %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
