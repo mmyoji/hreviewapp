@@ -1,13 +1,23 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+one_published:
   user: one
-  title: MyString
-  body: MyText
+  title: one published
+  body: foobarbuz
   published_at: 2019-05-02 02:46:52
 
-two:
+one_draft:
+  user: one
+  title: one draft
+  body: foobarbuz
+
+two_published:
   user: two
-  title: MyString
-  body: MyText
+  title: two published
+  body: buzbarfoo
   published_at: 2019-05-02 02:46:52
+
+two_draft:
+  user: two
+  title: two draft
+  body: buzbarfoo
