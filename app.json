@@ -41,7 +41,7 @@
   },
   "name": "hreviewapp",
   "scripts": {
-    "postdeploy": "rails db:migrate"
+    "postdeploy": "rails db:schema:load db:seed"
   },
   "stack": "heroku-18"
 }
